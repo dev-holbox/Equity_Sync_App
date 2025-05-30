@@ -46,11 +46,11 @@ To set up and run the project locally, follow these steps:
     ```
 2.  Install the required Node.js dependencies (make sure you have Node.js and npm/yarn installed):
     ```bash
-    npm install  # or yarn install
+    npm install or npm install --legacy-peer-deps # or yarn install
     ```
 3.  Start the frontend development server:
     ```bash
-    npm start  # or yarn start
+    npm run dev # or yarn start
     ```
     The frontend application will typically open in your browser at `http://localhost:3000`.
 
