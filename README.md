@@ -53,22 +53,3 @@ To set up and run the project locally, follow these steps:
     npm run dev # or yarn start
     ```
     The frontend application will typically open in your browser at `http://localhost:3000`.
-
-## Features
-
-The project currently includes the following features:
-
--   **Inventory Monitoring:** A page (`/inventory-monitoring`) to track surgical supplies and equipment with a styled table and alerts.
--   **Dashboard:** A dashboard page (`/dashboard`) displaying key performance indicators.
-    -   **Patient Throughput Charts:** Weekly, Monthly, and Yearly line charts showing patient volume.
-    -   **Surgeon Case Volume Chart:** A combined bar and line chart comparing actual vs. expected cases and equity targets for surgeons, with dynamic data based on selected time periods (Week, Month, Year).
-    -   **Fixed Navigation:** The header and sidebar are fixed, allowing only the main content to scroll. The user profile section is fixed at the bottom of the sidebar.
--   **PDF Text Extraction:** The backend includes an endpoint (`/extract-text`) to extract text from uploaded PDF files using PyPDF2 and process it with AWS Bedrock to get specific values (Safe Harbor Clause, Ownership Limits, etc.).
-
-## Future Improvements
-
--   Integrate backend API calls into the frontend charts and tables to display real data instead of sample data.
--   Implement full functionality for all navigation links and pages.
--   Enhance UI/UX based on user feedback.
--   Add more detailed error handling and loading states.
--   Implement user authentication and authorization.
